@@ -1,11 +1,11 @@
-# 🍰 Duha's Sweet Catering — Website
+# Duha's Sweet Catering — Website
 
 A multi-page promotional website for **Duha's Sweet Catering**, a dessert catering business based in Addis Ababa, Ethiopia. Built with HTML5, CSS3, and vanilla JavaScript.
 
 ---
 
-## 📸 Pages
-
+## Pages
+ 
 | Page | Description |
 |------|-------------|
 | `index.html` | Home page with hero section and call-to-action |
@@ -15,7 +15,7 @@ A multi-page promotional website for **Duha's Sweet Catering**, a dessert cateri
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Responsive design** — mobile-friendly layout with a hamburger navigation menu
 - **Scroll-reveal animations** — sections and cards animate in as the user scrolls
@@ -27,7 +27,7 @@ A multi-page promotional website for **Duha's Sweet Catering**, a dessert cateri
 
 ---
 
-## 🛠️ Built With
+##  Built With
 
 - **HTML5** — semantic page structure
 - **CSS3** — Flexbox layout, CSS Grid, custom properties, transitions, and animations
@@ -36,7 +36,7 @@ A multi-page promotional website for **Duha's Sweet Catering**, a dessert cateri
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 duha-catering/
@@ -51,7 +51,7 @@ duha-catering/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 No build tools or dependencies required. Just open any HTML file directly in your browser:
 
@@ -68,7 +68,7 @@ Or simply drag `index.html` into any browser window.
 
 ---
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 | Breakpoint | Behaviour |
 |------------|-----------|
@@ -77,7 +77,7 @@ Or simply drag `index.html` into any browser window.
 
 ---
 
-## 🎨 Color Palette
+## Color Palette
 
 | Role | Hex |
 |------|-----|
@@ -90,7 +90,7 @@ Or simply drag `index.html` into any browser window.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Firdaus Kedir Abdella**
 Software Engineering student, Addis Ababa University
@@ -98,6 +98,6 @@ Software Engineering student, Addis Ababa University
 
 ---
 
-## 📄 License
+## License
 
 This project was built for **Duha's Sweet Catering**. All content and branding belong to the business. Code structure is free to reference for learning purposes.
