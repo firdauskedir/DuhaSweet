@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duha's Sweet Catering - Contact Us</title>
+    <link rel="stylesheet" href="duhaStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Satisfy&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <div class="header-inner">
+        <h1>Duha's Sweet Catering</h1>
+        <button id="hamburger" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <nav id="navLinks">
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="about.html">About</a>
+          <a href="contact.html" class="active">Contact Us</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions, inquiries, or would like to place an order, please feel free to reach out to us. We would love to hear from you!</p>
+
+      <ul>
+        <li><strong>Phone 1:</strong> <a href="tel:+251982122720">+251 982 122 720</a></li>
+        <li><strong>Phone 2:</strong> <a href="tel:+251993639297">+251 993 639 297</a></li>
+        <li><strong>Phone 3:</strong> <a href="tel:+251940101757">+251 940 101 757</a></li>
+        <li><strong>Email:</strong> <a href="mailto:duhasweetcatering@gmail.com">duhasweets@gmail.com</a></li>
+        <li><strong>Instagram:</strong> <a href="https://instagram.com/duhasweetcatering" target="_blank" rel="noopener">@duhasweetcatering</a></li>
+        <li><strong>TikTok:</strong> <a href="https://tiktok.com/@duhasweetcatering" target="_blank" rel="noopener">Duha Sweet Catering</a></li>
+      </ul>
+
+      <!-- ── ENQUIRY FORM ── -->
+      <div class="contact-form-wrapper">
+        <h3>Send Us a Message</h3>
+
+        <form id="contactForm" novalidate>
+
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name">
+            <span class="error-msg" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email">
+            <span class="error-msg" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" placeholder="+251 9XX XXX XXX" autocomplete="tel">
+            <span class="error-msg" id="phoneError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="event">Event Type</label>
+            <select id="event" name="event">
+              <option value="">— Select an event type —</option>
+              <option value="wedding">Wedding</option>
+              <option value="birthday">Birthday Party</option>
+              <option value="corporate">Corporate Event</option>
+              <option value="baby-shower">Baby Shower</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" placeholder="Tell us about your event, preferred package, date, and number of guests..."></textarea>
+            <span class="error-msg" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="form-submit-btn">Send Message 💌</button>
+        </form>
+
+        <!-- Success state shown after valid submission -->
+        <div id="formSuccess">
+          <h3>Thank you! 🎉</h3>
+          <p>Your message has been received. We'll get back to you shortly to make your event extra sweet!</p>
+        </div>
+
+      </div>
+
+      <div class="order-now" style="margin-top: 2.5rem;">
+        <a href="menu.html" class="btn">View Our Menu</a>
+      </div>
+
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Duha's Sweet Catering. All rights reserved.</p>
+    </footer>
+
+    <button id="scrollTopBtn" title="Back to top">↑</button>
+    <script src="duhaScript.js"></script>
+  </body>
+</html>
