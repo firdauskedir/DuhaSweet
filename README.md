@@ -1,8 +1,8 @@
 # Duha's Sweet Catering — Website
 
-A multi-page promotional website for **Duha's Sweet Catering**, a dessert catering business based in Addis Ababa, Ethiopia. Built with HTML5, CSS3, and vanilla JavaScript.
+A multi-page promotional website for **Duha's Sweet Catering**, a dessert catering business based in Addis Ababa, Ethiopia. Built with HTML5, CSS3, and JavaScript.
 
----
+
 
 ## Pages
  
@@ -13,7 +13,7 @@ A multi-page promotional website for **Duha's Sweet Catering**, a dessert cateri
 | `about.html` | Business story and mission |
 | `contact.html` | Contact details and enquiry form |
 
----
+
 
 ##  Features
 
@@ -25,7 +25,7 @@ A multi-page promotional website for **Duha's Sweet Catering**, a dessert cateri
 - **"Most Popular" badge** — highlights the recommended package on the menu page
 - **Staggered card animations** — menu package cards animate in with a cascading delay
 
----
+
 
 ##  Built With
 
@@ -34,7 +34,7 @@ A multi-page promotional website for **Duha's Sweet Catering**, a dessert cateri
 - **JavaScript (ES6+)** — DOM manipulation, IntersectionObserver API, form validation
 - **Google Fonts** — [Satisfy](https://fonts.google.com/specimen/Satisfy) (display) + [Poppins](https://fonts.google.com/specimen/Poppins) (body)
 
----
+
 
 ## File Structure
 
@@ -49,24 +49,6 @@ duha-catering/
 └── README.md
 ```
 
----
-
-## Getting Started
-
-No build tools or dependencies required. Just open any HTML file directly in your browser:
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/duha-catering.git
-
-# Open in browser
-cd duha-catering
-open index.html
-```
-
-Or simply drag `index.html` into any browser window.
-
----
 
 ## Responsive Breakpoints
 
@@ -75,7 +57,7 @@ Or simply drag `index.html` into any browser window.
 | `> 640px` | Full horizontal navigation |
 | `≤ 640px` | Hamburger menu, stacked layout |
 
----
+
 
 ## Color Palette
 
@@ -88,7 +70,7 @@ Or simply drag `index.html` into any browser window.
 | Body text | `#4b2e2b` |
 | Muted text | `#6b4040` |
 
----
+
 
 ##  Author
 
@@ -96,7 +78,7 @@ Or simply drag `index.html` into any browser window.
 Software Engineering student, Addis Ababa University
 [firdkedir345@gmail.com](mailto:firdkedir345@gmail.com)
 
----
+
 
 ## License
 
